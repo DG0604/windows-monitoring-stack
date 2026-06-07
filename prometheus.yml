@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s 
+
+scrape_configs:
+  - job_name: 'windows_exporter'
+    static_configs:
+      # host.docker.internal allows the Docker container to access the Windows host IP
+      - targets: ['host.docker.internal:9182']
