@@ -39,3 +39,6 @@ Building this monitoring stack involved overcoming complex, real-world infrastru
    docker compose up -d
 
 4. Access Grafana at http://localhost:3000.
+
+⚡ **Interactive Snapshot:** View the [Live Grafana Dashboard Analytics] https://snapshots.raintank.io/dashboard/snapshot/qXNeHQbGCmsJVHTtYxBOyyMto0S8Ol2O 📈
+
