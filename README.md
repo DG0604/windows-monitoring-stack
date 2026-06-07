@@ -29,13 +29,13 @@ Building this monitoring stack involved overcoming complex, real-world infrastru
    cd your-repo-name
 2. Set up your local environment file:
 
-   Bash
+   ```bash
    cp .env.example .env
    (Open .env and configure your secure dashboard password).
 
 3. Launch the stack:
 
-   Bash
+   ```bash
    docker compose up -d
 
 4. Access Grafana at http://localhost:3000.
